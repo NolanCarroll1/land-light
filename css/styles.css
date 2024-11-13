@@ -430,13 +430,13 @@ div.masks section img:last-child {
 
 /* --------------------------- FOOTER --------------------------- */
 #footerWrapper {
-  background-color: #589260;
+  background-color: #375C3B;
 }
 
 footer {
   font-size: 0.85rem;
   padding: 1rem 10px;
-  color: #eee;
+  color: #fff;
   text-align: center;
   line-height: 150%;
 }
@@ -497,7 +497,7 @@ footer a {
   .parent ul {
     list-style-type: none;
     padding: 0;
-    background-color: #589260;
+    background-color: #375C3B;
     display: none;
   }
   .parent:hover ul {
