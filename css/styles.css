@@ -500,6 +500,9 @@ footer a {
     background-color: #375C3B;
     display: none;
   }
+  .parent ul li a {
+    color: #eee;
+  }
   .parent:hover ul {
     display: block;
   }
