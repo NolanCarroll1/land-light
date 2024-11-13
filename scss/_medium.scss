@@ -32,22 +32,19 @@
         color: #eee;
     }
 
-    li ul{
+    li.parent ul{
         background-color: $primaryColor;
         list-style-type: none;
         padding: 0;
         position: absolute;
         left: -999rem;
     }
-    li ul li{
+    li.parent ul li{
         border-top: solid 1px rgba($color: #000000, $alpha: 0.5);
     }
-    li:hover ul{
+    li.parent:hover ul{
         left: auto;
     }
-}
-.parent:hover ul{
-    display: block;
 }
 .clippath{
     section{
